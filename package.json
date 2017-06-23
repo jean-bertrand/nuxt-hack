@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-hack",
+  "version": "1.0.0",
+  "description": "Vue and Nuxt hang times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattjared/nuxt-hack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattjared/nuxt-hack/issues"
+  },
+  "homepage": "https://github.com/mattjared/nuxt-hack#readme",
+  "dependencies": {
+    "nuxt": "^1.0.0-alpha.4"
+  }
+}
