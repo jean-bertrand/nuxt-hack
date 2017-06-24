@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Swag Certs</h2>
+    <h2>{{ $store.state.counter }}</h2>
     <site-nav/>
   </div>
 </template>

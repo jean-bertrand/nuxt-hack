@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="hero">
     <site-header/>
     <site-footer/>
   </div>
