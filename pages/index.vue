@@ -1,7 +1,12 @@
 <template>
-  <div class="hero">
-    <site-header/>
-    <site-footer/>
+  <div>
+    <div :style="{ 'background-image': 'url(' + $store.state.bgImage + ')' }">
+      <site-header/>
+      <site-footer/>
+    </div>
+    <div class="hero">
+      <h1>asdlfjkas;fljkaf;lj</h1>
+    </div>
   </div>
 </template>
 
@@ -15,6 +20,7 @@
       SiteFooter,
     }
   }
+
 </script>
 
 
