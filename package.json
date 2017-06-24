@@ -19,5 +19,9 @@
   "homepage": "https://github.com/mattjared/nuxt-hack#readme",
   "dependencies": {
     "nuxt": "^1.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6"
   }
 }
