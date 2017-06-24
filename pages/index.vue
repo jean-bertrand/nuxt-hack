@@ -1,3 +1,10 @@
+<template>
+  <div>
+    <site-header/>
+    <site-footer/>
+  </div>
+</template>
+
 <script>
   import SiteHeader from '~components/Header.vue'
   import SiteFooter from '~components/Footer.vue'
@@ -10,10 +17,4 @@
   }
 </script>
 
-<template>
-  <div>
-    <site-header/>
-    <site-footer/>
-  </div>
-</template>
 

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mattjared/nuxt-hack#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "nuxt": "^1.0.0-alpha.4"
   },
   "devDependencies": {
