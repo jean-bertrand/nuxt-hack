@@ -1,23 +1,25 @@
 <template>
-  <div>
-    <div :style="{ 'background-image': 'url(' + $store.state.bgImage + ')' }">
+  <div class="site-wrap">
+    <div class="jumbotron hero">
       <site-header/>
-      <site-footer/>
+      <div class="container">
+        <site-form/>
+      </div>
     </div>
-    <div class="hero">
-      <h1>asdlfjkas;fljkaf;lj</h1>
-    </div>
+    <site-footer/>
   </div>
 </template>
 
 <script>
   import SiteHeader from '~components/Header.vue'
   import SiteFooter from '~components/Footer.vue'
+  import SiteForm from '~components/Form.vue'
 
   export default {
     components: {
       SiteHeader,
       SiteFooter,
+      SiteForm,
     }
   }
 

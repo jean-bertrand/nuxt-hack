@@ -1,6 +1,5 @@
 module.exports = {
   css: [
-    '~assets/main.css',
     { src: '~assets/scss/main.scss', lang: 'scss' }
   ],
   head: {

@@ -1,0 +1,16 @@
+.jumbotron {
+  color: $white;
+  padding-top: $jumbotron-padding;
+  padding-bottom: $jumbotron-padding;
+
+  @include media-breakpoint-up(sm) {
+    padding-top: $jumbotron-padding * 2;
+    padding-bottom: $jumbotron-padding * 2;
+  }
+}
+
+// Custom Styles and Offshoots
+
+.jumbotron.hero {
+  background-image: url('/bg-hero.png');
+}

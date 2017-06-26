@@ -1,17 +1,6 @@
 <template>
-  <div>
-    <h2>{{ $store.state.counter }}</h2>
-    <site-nav/>
-  </div>
+  <nav class="navbar navbar-light bg-faded fixed-top flex-row">
+    <a class="mr-auto" href="#">Navbar</a>
+    <a class="ml-auto" href="#">Get Started</a>
+  </nav>
 </template>
-
-<script>
-  import SiteNav from '~components/Nav.vue'
-
-  export default {
-    components: {
-      SiteNav,
-    }
-  }
-</script>
-
