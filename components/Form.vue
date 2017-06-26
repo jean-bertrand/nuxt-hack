@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <div class="card-form">
     <form class="form-control">
       <input type="text" />
     </form>
-    <select name="state-list" form="state-form">
+    <select class="custom-select">
+      <option selected>Which state are you in?</option>
       <option value="AL">Alabama</option>
       <option value="AR">Arkansas</option>
       <option value="AL">Alaska</option>
