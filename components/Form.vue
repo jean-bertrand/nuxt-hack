@@ -9,6 +9,7 @@
       <option value="AR">Arkansas</option>
       <option value="AL">Alaska</option>
       <option value="CO">Colorado</option>
+      <option value="IN">Indiana</option>
       <option value="WY">Wyoming</option>
     </select>
   </div>
