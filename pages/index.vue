@@ -1,33 +1,24 @@
 <template>
   <div class="site-wrap">
-    <div class="jumbotron hero">
-      <site-header/>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Bartender Certification and Training!</h1>
-            <p>Get started in the world of bartending or get back to taking shifts and serving up for your regulars.</p>
-          </div>
-          <div class="col-sm-6">
-            <site-form/>
-          </div>
-        </div>
-      </div>
-    </div>
+    <site-hero/>
+    <single-quote/>
+    <icon-row/>
     <site-footer/>
   </div>
 </template>
 
 <script>
-  import SiteHeader from '~components/Header.vue'
+  import SiteHero from '~components/Hero.vue'
   import SiteFooter from '~components/Footer.vue'
-  import SiteForm from '~components/Form.vue'
+  import SingleQuote from '~components/SingleQuote.vue'
+  import IconRow from '~components/IconRow.vue'
 
   export default {
     components: {
-      SiteHeader,
+      SiteHero,
       SiteFooter,
-      SiteForm,
+      SingleQuote,
+      IconRow,
     }
   }
 
