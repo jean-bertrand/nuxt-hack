@@ -14,3 +14,9 @@
 .jumbotron.hero {
   background-image: url('/bg-hero.png');
 }
+
+.jumbotron-title {
+  @include media-breakpoint-up(md) {
+    font-size: $display4-size;
+  }
+}

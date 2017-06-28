@@ -1,3 +1,3 @@
 <template>
-  <h2>Hey a;sldfja;flj</h2>
+  <div class="text-center">Copyright &copy; {{ $store.state.year }} | Legal terms go here</div>
 </template>

@@ -10,11 +10,13 @@
   box-shadow: $default-box-shadow;
   border-radius: $border-radius;
   padding: $spacer;
-  // @include position(abs, 0 0 null 0);
-  position: absolute;
-  top: -$spacer * 4;
-  left: 0;
-  right: 0;
+
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    top: -$spacer * 4;
+    left: 0;
+    right: 0;
+  }
 }
 
 // .card-form .form-group {
@@ -24,5 +26,32 @@
 .card-form .custom-select,
 .card-form .form-control {
   font-family: $font-family-base;
-  font-size: $font-size-lg;
+
+  @include media-breakpoint-up(md) {
+    font-size: $font-size-lg;
+  }
+}
+
+//
+// Icon Card
+//
+
+.icon-card {
+  background-color: rgba($black, .4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $spacer * 2;
+}
+.icon-card-order {
+  border-radius: 50%;
+  border: 3px solid $white;
+  color: $white;
+  display: block;
+  padding: $spacer * .5;
+  margin-right: auto;
+  margin-bottom: $spacer;
+  margin-left: auto;
+  text-align: center;
+  @include size($spacer * 3);
 }

@@ -1,0 +1,23 @@
+//
+// Quotes
+//
+
+.single-quote {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up(md) {
+    flex-direction: row;
+  }
+}
+.single-quote-text {
+  margin-top: $spacer * 2;
+
+  @include media-breakpoint-up(md) {
+    margin-left: $spacer * 4;
+  }
+}
+.single-quote-text .attr {
+  font-style: italic;
+}

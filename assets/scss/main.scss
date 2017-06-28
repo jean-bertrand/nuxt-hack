@@ -63,15 +63,12 @@
 @import "../../node_modules/bootstrap/scss/utilities/text";
 @import "../../node_modules/bootstrap/scss/utilities/visibility";
 
-// Custom Utility classes
+// Custom Utilities and Components classes
 @import "background";
 @import 'position';
-
-// Custom Components
-@import 'jet';
 @import 'buttons';
+@import 'cards';
 @import 'custom-forms';
 @import 'jumbotron';
-@import 'leg';
-@import 'cards';
 @import 'section-sizing';
+@import 'quotes';

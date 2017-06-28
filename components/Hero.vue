@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h1 class="display-4">Online Bartender Certification &amp; Training</h1>
+          <h1 class="jumbotron-title">Online Bartender Certification &amp; Training</h1>
           <p>Get started in the world of bartending or get back to taking shifts and serving up for your regulars. Get your bartender certification for the first time or re-up your bartender license online now.</p>
         </div>
         <div class="col-sm-5 offset-sm-1">
