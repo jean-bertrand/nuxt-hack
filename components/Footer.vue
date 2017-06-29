@@ -7,8 +7,8 @@
           <p>Austin TX, 78704</p>
         </div>
         <div class="col-sm-4 offset-sm-4">
-          <span>Terms, Privacy and Other spannks</span>
-          <span><a href="#">email@bizarrestone.fakesite</a></span>
+          <span>Terms, Privacy and Other Links</span>
+          <p><a href="#">email@bizarrestone.fakesite</a></p>
         </div>
       </div>
       <hr class="text-xs">
