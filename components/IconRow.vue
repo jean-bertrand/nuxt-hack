@@ -7,13 +7,13 @@
       <div class="col-sm-4">
         <div class="icon-card">
           <span class="icon-card-order">1</span>
-          <p class="icon-card-text">Check your states laws regarding age and serving alchol.</p>
+          <p class="icon-card-text">Be legally permitted to work in the state of the establishment.</p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="icon-card">
           <span class="icon-card-order">2</span>
-          <p class="icon-card-text">Take an online training course through Bizarre Stone</p>
+          <p class="icon-card-text">Take an online training course through Bizarre Stone. <a href="#top" class="text-warning">Start now!</a></p>
         </div>
       </div>
       <div class="col-sm-4">

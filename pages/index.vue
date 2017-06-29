@@ -4,7 +4,9 @@
     <single-quote/>
     <icon-row/>
     <longform-text/>
-    <state-form/>
+    <inline-button/>
+    <site-FAQ/>
+    <inline-button/>
     <site-footer/>
   </div>
 </template>
@@ -15,7 +17,8 @@
   import SingleQuote from '~components/SingleQuote.vue'
   import IconRow from '~components/IconRow.vue'
   import LongformText from '~components/LongformText.vue'
-  import StateForm from '~components/StateForm.vue'
+  import InlineButton from '~components/InlineButton.vue'
+  import SiteFAQ from '~components/Faq.vue'
 
   export default {
     components: {
@@ -23,8 +26,9 @@
       SingleQuote,
       IconRow,
       LongformText,
-      StateForm,
+      InlineButton,
       SiteFooter,
+      SiteFAQ,
     }
   }
 
